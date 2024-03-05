@@ -1,5 +1,5 @@
 def gen_pins():
-    # Generates the pins
+    # Generates the pinsss
     pins = {str(n).zfill(4) for n in range(0, 10000)}
     return pins
 
