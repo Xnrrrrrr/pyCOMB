@@ -5,7 +5,7 @@ def gen_pins():
 
 
 def save_pins(pins, filename):
-    # Saves the pins to a text file
+    # Saves the pins to a text files
     with open(filename, 'w') as file:
         for pin in pins:
             file.write(f'{pin}\n')
