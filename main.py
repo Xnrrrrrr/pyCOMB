@@ -12,7 +12,7 @@ def save_pins(pins, filename):
 
 
 def main():
-    # Runs the script, dpoe
+    # Runs the script
     filename = input("Enter the filename for generated PINs: ")
     pins = gen_pins()
     save_pins(pins, filename)
