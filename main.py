@@ -2,8 +2,8 @@ def gen_pins():
     # Generates the pins
     pins = {str(n).zfill(4) for n in range(0, 10000)}
     return pins
-#steveshg
-s
+#steveshgx
+
 def save_pins(pins, filename):
     # Saves the pins to a text file
     with open(filename, 'w') as file:
